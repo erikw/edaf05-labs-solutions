@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ClosestPair	ClosestPair.java	/^public class ClosestPair {$/;"	c
+Parser	Parser.java	/^	public Parser() {$/;"	m	class:Parser
+Parser	Parser.java	/^	public Parser(String fileName) throws FileNotFoundException {$/;"	m	class:Parser
+Parser	Parser.java	/^public class Parser {$/;"	c
+Point	Point.java	/^	 public Point(double x, double y) {$/;"	m	class:Point
+Point	Point.java	/^public class Point { $/;"	c
+XComparator	XComparator.java	/^public class XComparator implements Comparator<Point>{$/;"	c
+YComparator	YComparator.java	/^public class YComparator implements Comparator<Point>{$/;"	c
+bruteForce	ClosestPair.java	/^	private double bruteForce(List<Point> xList) {$/;"	m	class:ClosestPair	file:
+compare	XComparator.java	/^	public int compare(Point lhs, Point rhs) {$/;"	m	class:XComparator
+compare	YComparator.java	/^	public int compare(Point lhs, Point rhs) {$/;"	m	class:YComparator
+compareCoord	Point.java	/^	private int compareCoord(double lhs, double rhs){$/;"	m	class:Point	file:
+compareX	Point.java	/^	public int compareX(Point point){$/;"	m	class:Point
+compareY	Point.java	/^	public int compareY(Point point){$/;"	m	class:Point
+getXCoord	Point.java	/^	public double getXCoord() {$/;"	m	class:Point
+getXList	Parser.java	/^	public List<Point> getXList() {$/;"	m	class:Parser
+getXpos	Point.java	/^	public int getXpos() {$/;"	m	class:Point
+getYList	Parser.java	/^	public List<Point> getYList() {$/;"	m	class:Parser
+main	ClosestPair.java	/^	public static void main(String[] args) {$/;"	m	class:ClosestPair
+min	ClosestPair.java	/^	private double min(double d1, double d2, double d3) {$/;"	m	class:ClosestPair	file:
+minDistance	ClosestPair.java	/^	public double minDistance(List<Point> xList, List<Point> yList) {$/;"	m	class:ClosestPair
+parse	Parser.java	/^	public void parse() {$/;"	m	class:Parser
+run	ClosestPair.java	/^	public void run(List<Point> xList, List<Point> yList) {$/;"	m	class:ClosestPair
+scanner	Parser.java	/^	private Scanner scanner;$/;"	f	class:Parser	file:
+setUp	Parser.java	/^	private void setUp() {$/;"	m	class:Parser	file:
+setXPos	Point.java	/^	public void setXPos(int xPos) {$/;"	m	class:Point
+sqDistanceTo	Point.java	/^	 public double sqDistanceTo(Point otherPoint) {$/;"	m	class:Point
+toString	Point.java	/^	public String toString(){$/;"	m	class:Point
+x	Point.java	/^	private double x;$/;"	f	class:Point	file:
+xList	Parser.java	/^	private List<Point> xList;$/;"	f	class:Parser	file:
+xPos	Point.java	/^	private int xPos;$/;"	f	class:Point	file:
+y	Point.java	/^	private double y;$/;"	f	class:Point	file:
+yList	Parser.java	/^	private List<Point> yList;$/;"	f	class:Parser	file:
